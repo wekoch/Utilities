@@ -1,0 +1,9 @@
+The Utilities repositories contains scripts and applications that are short and hopeful useful.
+
+Website Check
+websitecheck.pl
+This utility runs as a service on the Linux/Unix server and pings a URL and will send an email if an error occurs
+
+Delicious Bad Bookmark Checker
+delicious_bb_check.py
+Uses the Delicious API to pull a list of the user's bookmarks and the tests the links to see if they are still valid prints out the invalid list.  
