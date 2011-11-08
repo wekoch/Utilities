@@ -4,7 +4,7 @@ use LWP::UserAgent;
 use DBI;
 use DBD::mysql;
 
-$sock_location = '/var/lib/mysql/mysql.sock';
+$sock_location = '/var/lib/mysql/mysql.sock'; # I added this because my MySQL install is not default and the connection string wasn't finding this sock file.
 &checkingsites();
 
 sub sitechecker {
